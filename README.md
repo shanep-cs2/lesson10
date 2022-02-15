@@ -1,8 +1,8 @@
-# lesson04 - Warmup
+# lesson10 - Fibonacci
 
 - name: TODO
 - email: TODO
-- [lab specs](https://shanepanter.com/cs2/lessons/lesson04.html)
+- [lab specs](https://shanepanter.com/cs2/lessons/lesson10.html)
 
 ## Testing
 
