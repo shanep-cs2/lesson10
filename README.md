@@ -11,7 +11,11 @@ access to google, so it is in your best interest to attempt to solve this with o
 a resource!
 
 The Fibonacci sequence begins with 0 and then 1 follows. All subsequent values are the sum of the
-previous two, for example: 0, 1, 1, 2, 3, 5, 8, 13. 
+previous two, for example: 0, 1, 1, 2, 3, 5, 8, 13.
+
+## Videos
+
+- [Lab Overview]()
 
 ## Task 1 - Write Unit Tests
 
