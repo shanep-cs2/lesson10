@@ -11,11 +11,16 @@ access to google, so it is in your best interest to attempt to solve this with o
 a resource!
 
 The Fibonacci sequence begins with 0 and then 1 follows. All subsequent values are the sum of the
-previous two, for example: 0, 1, 1, 2, 3, 5, 8, 13.
+previous two. The first 21 Fibonacci numbers are:
+
+|F0|F1|F2|F3|F4|F5|F6|F7|F8|F9|F10|F11|F12|F13|F14|F15|F16|F17 |F18 |F19 | F20 |
+|--|--|--|--|--|--|--|--|--|--|---|---|---|---|---|---|---|----|----|----|-----|
+|0 |1 |1 |2 |3 |5 |8 |13|21|34|55 |89 |144|233|377|610|987|1597|2584|4181|6765 |
+
 
 ## Important links
 
-- [Lab Overview]()
+- [Lab Overview](https://youtu.be/M8sLpGYM7Pc)
 - [Class Coding standards](https://shanep-cs2.github.io/docs/coding-standards.html)
 - [Cloning and Submitting](https://shanep-cs2.github.io/docs/github.html)
 
@@ -33,33 +38,12 @@ Complete the FibNum class.  You must use recursion, no credit will be given for 
 solution.  The `calculate(int n)` method takes in an index, n, and returns the nth value in the
 sequence. Any negative index values should return -1.
 
-```java
-public class FibNum {
+## Task 3 - Complete the Retrospective
 
-    public static int calculate(int n) {
-        //Recursive solution here
-        return 0;
-    }
-}
-```
+Once you have completed all the tasks open the file **Retrospective.md** and complete each section
+with a TODO comment. 
 
-## Task 3 - Command line arguments
+## Task 4 - Add, Commit, Push your code
 
-The class that contains `main` method needs to be updated to accept 1 command line argument
-representing the number that you want to calculate.  You can run `gradlew installDist` to create a
-runnable image of the application. The image will be located in directory
-`app/build/install/app/bin`. If you were distributing this application to end users there are some
-extra steps involved, but in this case we don't need to worry about those steps as we just want
-to run the program.
-
-Assuming that your build succeeded you can now `cd` into the `app/build/install/app/bin` directory
-and run your application as shown below.
-
-```bash
-shane|(main *%=):lesson10$ cd app/build/install/app/bin/   
-shane|(main *%=):bin$ ./app
-No number given!
-shane|(main *%=):bin$ ./app 1
-Fibonacci number: 1 is 0 
-```
-
+Once you are finished you need to make sure that you have pushed all your code to GitHub for
+grading!
